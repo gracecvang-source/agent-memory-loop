@@ -57,7 +57,40 @@ This pipeline turns logs into knowledge.
 
 The agent will begin building stable recall automatically.
 
+---
 
+## Quick Start (minimal)
+
+You do NOT need full automation to use this.
+
+Day 1:
+
+1. Create a file:
+   memory/2026-01-01.md
+
+2. Write a short summary of activity:
+   - what happened
+   - decisions made
+   - unresolved items
+
+3. Create:
+   memory/pipeline/daily/2026-01-01/index.json
+
+   Example:
+
+   {
+     "date": "2026-01-01",
+     "summary": "Initial test day",
+     "activities": [],
+     "observations": ["testing memory loop"],
+     "tags": ["setup"]
+   }
+
+4. Run the organize and journal scripts (manual or future automation)
+
+You now have structured recall.
+
+Repeat daily.
 ---
 
 ## Documentation
