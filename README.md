@@ -1,14 +1,86 @@
 # Agent Memory Loop
 
-This is a simple daily memory pipeline for stateful AI agents.
+A daily memory pipeline that keeps long-running AI agents consistent across days.
 
-It converts activity into stable recall using a loop:
+Most agents drift over time because chat logs accumulate but understanding does not.
+
+This project converts activity into structured recall:
 
 capture → organize → tag → journal
 
-Goal:
-Stop agents from drifting by turning logs into structured memory.
+Result:
+Instead of the agent forgetting context after a few sessions,
+it maintains continuity through a lightweight daily loop.
 
-This project is designed to be readable first, automated second.
 
-More documentation coming as the structure is cleaned for sharing.
+---
+
+## What This Fixes
+
+Common problem:
+
+day 1 → agent feels coherent  
+day 5 → behavior shifts  
+day 10 → personality collapses or resets
+
+Cause:
+Logs are not memory.
+
+This pipeline turns logs into knowledge.
+
+
+---
+
+## What Happens Each Day
+
+1. Capture  
+   Raw activity is recorded.
+
+2. Organize  
+   Important information is extracted and categorized.
+
+3. Tag  
+   Topics become searchable across time.
+
+4. Journal  
+   A narrative summary reinforces continuity.
+
+
+---
+
+## Installation (conceptual)
+
+1) Copy the repository into your agent project
+2) Configure paths
+3) Add scheduled runs (cron or scheduler)
+4) Begin writing daily notes or feeding activity
+
+The agent will begin building stable recall automatically.
+
+
+---
+
+## Documentation
+
+See `/docs`:
+
+PIPELINE.md – how the loop works  
+SCHEMAS.md – file formats
+
+
+---
+
+## Design Goals
+
+- Human readable first
+- Automation optional
+- Model-agnostic
+- Works with manual or automated capture
+
+
+---
+
+## Status
+
+Early release while being cleaned for public use.
+Structure is stable; scripts will evolve.
