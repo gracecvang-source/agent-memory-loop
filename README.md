@@ -1,5 +1,7 @@
 # Agent Memory Loop
 
+This provides structure first and reference scripts second.
+
 A daily memory pipeline that keeps long-running AI agents consistent across days.
 
 Most agents drift over time because chat logs accumulate but understanding does not.
