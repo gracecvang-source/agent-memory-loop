@@ -8,6 +8,8 @@ This project converts activity into structured recall:
 
 capture → organize → tag → journal
 
+This repository currently provides the structure and schemas first; reference scripts are being cleaned and added incrementally.
+
 Result:
 Instead of the agent forgetting context after a few sessions,
 it maintains continuity through a lightweight daily loop.
@@ -61,7 +63,7 @@ The agent will begin building stable recall automatically.
 
 ## Quick Start (minimal)
 
-You do NOT need full automation to use this.
+The system is intentionally usable manually before automation.You do NOT need full automation to use this.
 
 Day 1:
 
